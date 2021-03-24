@@ -79,6 +79,8 @@
 [aria-label="unread, programming (text channel)"] > div > svg > path,
 [aria-label="coding (text channel)"] > div > svg > path,
 [aria-label="unread, coding (text channel)"] > div > svg > path,
+[aria-label="dev (text channel)"] > div > svg > path,
+[aria-label="unread, dev (text channel)"] > div > svg > path,
 [aria-label="module-dev (text channel)"] > div > svg > path,
 [aria-label="unread, module-dev (text channel)"] > div > svg > path {
   d: path("M0 0h24v24H0V0z");
