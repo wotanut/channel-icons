@@ -15,7 +15,7 @@
   transform: scale(1.5);
 }
 
-/* offtopic */
+/* general & offtopic */
 [aria-label="offtopic (text channel)"] > div > svg > path,
 [aria-label="unread, offtopic (text channel)"] > div > svg > path,
 [aria-label="off-topic (text channel)"] > div > svg > path,
