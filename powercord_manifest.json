@@ -1,0 +1,12 @@
+{
+	"name": "Channel Icons",
+	"description": "Gives some channels unique icons depending on their name.",
+	"version": "1.3.0",
+	"author": "Liam The Protogen#2501",
+	"license": "MIT",
+	"theme": "channelicons.theme.css",
+	"preview": [
+		"https://raw.githubusercontent.com/Controlfreak707/Channel-Icons/main/screenshots/1.png"
+	],
+	"discord": "fssWDHY5Kb"
+}

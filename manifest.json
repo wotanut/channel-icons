@@ -1,14 +1,14 @@
 {
-  "name": "Channel Icons",
-  "description": "Gives some channels unique icons depending on their name.",
-  "version": "1.2.0",
-  "license": "MIT",
-  "author": "Liam The Protogen#2501",
-  "theme": "main.css",
-  "settings": [
-    {
-      "type": "markdown",
-      "source": "> Theme settings aren't finished yet... for now, you may edit the file located at `vizality/addons/themes/channel-icons/main.css`."
-    }
-  ]
+	"name": "Channel Icons",
+	"description": "Gives some channels unique icons depending on their name.",
+	"version": "1.3.0",
+	"license": "MIT",
+	"author": "Liam The Protogen#2501",
+	"theme": "channelicons.theme.css",
+	"settings": [
+		{
+			"type": "markdown",
+			"source": "> Theme settings aren't finished yet... for now, you may edit the file located at `vizality/addons/themes/channel-icons/main.css`."
+		}
+	]
 }
