@@ -1,0 +1,12 @@
+{
+	"main": "goosemod.js",
+	"version": "1.6.0",
+
+	"name": "Channel Icons",
+	"authors": ["441384103946878987"],
+	"description": "Gives some channels unique icons depending on their name.",
+	"images": [
+		"https://raw.githubusercontent.com/Controlfreak707/Channel-Icons/main/screenshots/1.png"
+	],
+	"tags": ["ui"]
+}
