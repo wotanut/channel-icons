@@ -2,7 +2,7 @@
 	"name": "Channel Icons",
 	"description": "Gives some channels unique icons depending on their name.",
 	"version": "1.8.0",
-	"author": "Liam The Protogen#2501",
+	"author": "Vbriese#2501",
 	"license": "MIT",
 	"theme": "channelicons.theme.css",
 	"preview": [
