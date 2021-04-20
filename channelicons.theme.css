@@ -3,7 +3,7 @@
  * @description Gives some channels unique icons depending on their name.
  * @author Liam The Protogen#2501
  * @authorId 441384103946878987
- * @version 1.7.0
+ * @version 1.8.0
  *
  * @updateUrl https://raw.githubusercontent.com/Controlfreak707/Channel-Icons/main/channelicons.theme.css
  * @source https://github.com/Controlfreak707/Channel-Icons
@@ -21,12 +21,20 @@
 }
 
 /* Offtopic & Ontopic Channels */
+/* English */
 [aria-label*="offtopic"] > div > svg > path,
 [aria-label*="off-topic"] > div > svg > path,
 [aria-label*="chat"] > div > svg > path,
 [aria-label*="ontopic"] > div > svg > path,
 [aria-label*="on-topic"] > div > svg > path,
-[aria-label*="general"] > div > svg > path {
+[aria-label*="general"] > div > svg > path,
+/* French */
+[aria-label*="horssujet"] > div > svg > path,
+[aria-label*="hors-sujet"] > div > svg > path,
+[aria-label*="discuter"] > div > svg > path,
+[aria-label*="ontopique"] > div > svg > path,
+[aria-label*="sur-le-sujet"] > div > svg > path,
+[aria-label*="général"] > div > svg > path {
 	d: path(
 		"M2.39953 0C1.07499 0 0 1.07379 0 2.39952V16.7966C0 18.1212 1.07499 19.1962 2.39953 19.1962H5.99882V23.9952L10.7978 19.1962H21.5957C22.9214 19.1962 23.9952 18.1212 23.9952 16.7966V2.39952C23.9952 1.07379 22.9214 0 21.5957 0H2.39953Z"
 	);
@@ -34,8 +42,11 @@
 }
 
 /* Info Channels */
+/* English */
 [aria-label*="info"] > div > svg > path,
-[aria-label*="useful"] > div > svg > path {
+[aria-label*="useful"] > div > svg > path,
+/* French */
+[aria-label*="utile"] > div > svg > path {
 	d: path(
 		"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
 	);
@@ -43,9 +54,12 @@
 }
 
 /* Help Channels */
+/* English */
 [aria-label*="help"] > div > svg > path,
 [aria-label*="faq"] > div > svg > path,
-[aria-label*="support"] > div > svg > path {
+[aria-label*="support"] > div > svg > path,
+/* French */
+[aria-label*="aider"] > div > svg > path {
 	d: path(
 		"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"
 	);
@@ -53,7 +67,10 @@
 }
 
 /* Starboard Channels */
-[aria-label*="starboard"] > div > svg > path {
+/* English */
+[aria-label*="starboard"] > div > svg > path,
+/* French */
+[aria-label*="tribord"] > div > svg > path {
 	d: path(
 		"M 21.924 8.61789 C 21.77 8.24489 21.404 8.00089 21 8.00089 H 15.618 L 12.894 2.55389 C 12.555 1.87689 11.444 1.87689 11.105 2.55389 L 8.38199 8.00089 H 2.99999 C 2.59599 8.00089 2.22999 8.24489 2.07599 8.61789 C 1.92199 8.99089 2.00699 9.42289 2.29299 9.70789 L 6.87699 14.2919 L 5.03899 20.7269 C 4.92399 21.1299 5.07199 21.5619 5.40999 21.8089 C 5.74999 22.0569 6.20699 22.0659 6.55399 21.8329 L 12 18.2029 L 17.445 21.8329 C 17.613 21.9449 17.806 22.0009 18 22.0009 C 18.207 22.0009 18.414 21.9369 18.59 21.8089 C 18.928 21.5619 19.076 21.1299 18.961 20.7269 L 17.123 14.2919 L 21.707 9.70789 C 21.993 9.42289 22.078 8.99089 21.924 8.61789 Z"
 	);
@@ -61,8 +78,11 @@
 }
 
 /* Gaming Channels */
+/* English */
 [aria-label*="gaming"] > div > svg > path,
-[aria-label*="games"] > div > svg > path {
+[aria-label*="game"] > div > svg > path,
+/* French */
+[aria-label*="jeu"] > div > svg > path {
 	d: path(
 		"M 5.79336 5 L 18.2066 5 C 19.7806 5 21.0869 6.21634 21.199 7.78626 L 21.8575 17.0051 C 21.9308 18.031 21.1586 18.922 20.1327 18.9953 C 20.0885 18.9984 20.0443 19 20 19 C 18.8246 19 17.8 18.2 17.5149 17.0597 L 17 15 L 7 15 L 6.48507 17.0597 C 6.19999 18.2 5.17541 19 4 19 C 2.97151 19 2.13776 18.1662 2.13776 17.1378 C 2.13776 17.0935 2.13934 17.0492 2.14249 17.0051 L 2.80098 7.78626 C 2.91312 6.21634 4.21944 5 5.79336 5 Z M 14.5 10 C 15.3284 10 16 9.32843 16 8.5 C 16 7.67157 15.3284 7 14.5 7 C 13.6716 7 13 7.67157 13 8.5 C 13 9.32843 13.6716 10 14.5 10 Z M 18.5 13 C 19.3284 13 20 12.3284 20 11.5 C 20 10.6716 19.3284 10 18.5 10 C 17.6716 10 17 10.6716 17 11.5 C 17 12.3284 17.6716 13 18.5 13 Z M 6 9 L 4 9 L 4 11 L 6 11 L 6 13 L 8 13 L 8 11 L 10 11 L 10 9 L 8 9 L 8 7 L 6 7 L 6 9 Z"
 	);
@@ -70,9 +90,13 @@
 }
 
 /* Programming Channels */
-[aria-label*="programming"] > div > svg > path,
+/* English */
+[aria-label*="program"] > div > svg > path,
 [aria-label*="coding"] > div > svg > path,
-[aria-label*="dev"] > div > svg > path {
+[aria-label*="dev"] > div > svg > path,
+/* French */
+[aria-label*="programme"] > div > svg > path,
+[aria-label*="codage"] > div > svg > path {
 	d: path(
 		"M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"
 	);
@@ -96,7 +120,10 @@
 }
 
 /* Log Channels */
-[aria-label*="log"] > div > svg > path {
+/* English */
+[aria-label*="log"] > div > svg > path,
+/* French */
+[aria-label*="registre"] > div > svg > path {
 	d: path(
 		"M19.1962 17.9964H4.79904V15.5969H19.1962V17.9964ZM19.1962 13.1974H4.79904V10.7978H19.1962V13.1974ZM19.1962 8.39832H4.79904V5.9988H19.1962V8.39832ZM1.19976 23.9952L2.9994 22.1956L4.79904 23.9952L6.59868 22.1956L8.39832 23.9952L10.198 22.1956L11.9976 23.9952L13.7972 22.1956L15.5969 23.9952L17.3965 22.1956L19.1962 23.9952L20.9958 22.1956L22.7954 23.9952V-7.45058e-09L20.9958 1.79964L19.1962 -7.45058e-09L17.3965 1.79964L15.5969 -7.45058e-09L13.7972 1.79964L11.9976 -7.45058e-09L10.198 1.79964L8.39832 -7.45058e-09L6.59868 1.79964L4.79904 -7.45058e-09L2.9994 1.79964L1.19976 -7.45058e-09V23.9952Z"
 	);
@@ -104,7 +131,10 @@
 }
 
 /* Quote Channels */
-[aria-label*="quote"] > div > svg > path {
+/* English */
+[aria-label*="quote"] > div > svg > path,
+/* French */
+[aria-label*="citation"] > div > svg > path {
 	d: path(
 		"M19.8401 5.39392C20.1229 4.73405 19.6389 4 18.921 4H17.1231C16.7417 4 16.3935 4.21695 16.2254 4.55933L13.3297 10.4581C13.195 10.7324 13.125 11.0339 13.125 11.3394V19C13.125 19.5523 13.5727 20 14.125 20H20C20.5523 20 21 19.5523 21 19V12.875C21 12.3227 20.5523 11.875 20 11.875H17.8208C17.4618 11.875 17.2198 11.508 17.3612 11.178L19.8401 5.39392ZM9.71511 5.39392C9.99791 4.73405 9.51388 4 8.79596 4H6.99809C6.61669 4 6.2685 4.21695 6.10042 4.55933L3.20466 10.4581C3.07001 10.7324 3 11.0339 3 11.3394V19C3 19.5523 3.44772 20 4 20H9.875C10.4273 20 10.875 19.5523 10.875 19V12.875C10.875 12.3227 10.4273 11.875 9.875 11.875H7.69577C7.33681 11.875 7.0948 11.508 7.2362 11.178L9.71511 5.39392Z"
 	);
@@ -112,7 +142,10 @@
 }
 
 /* Bug Channels */
-[aria-label*="bug"] > div > svg > path {
+/* English */
+[aria-label*="bug"] > div > svg > path,
+/* French */
+[aria-label*="bogue"] > div > svg > path {
 	d: path(
 		"M22.7155 6.66533H18.9508C18.3465 5.62252 17.5129 4.72928 16.5125 4.05252L18.6963 1.87962L16.8072 0L13.9 2.89275C13.2837 2.74612 12.6541 2.66613 11.9976 2.66613C11.3411 2.66613 10.7115 2.74612 10.1086 2.89275L7.18796 0L5.29894 1.87962L7.46931 4.05252C6.4779 4.73239 5.64727 5.62554 5.04439 6.66533H1.27974V9.33147H4.07978C4.0128 9.77138 3.95921 10.2113 3.95921 10.6645V11.9976H1.27974V14.6637H3.95921V15.9968C3.95921 16.45 4.0128 16.89 4.07978 17.3299H1.27974V19.996H5.04439C6.43771 22.3822 9.02339 23.9952 11.9976 23.9952C14.9718 23.9952 17.5575 22.3822 18.9508 19.996H22.7155V17.3299H19.9154C19.9824 16.89 20.036 16.45 20.036 15.9968V14.6637H22.7155V11.9976H20.036V10.6645C20.036 10.2113 19.9824 9.77138 19.9154 9.33147H22.7155V6.66533ZM14.6771 17.3299H9.31814V14.6637H14.6771V17.3299ZM14.6771 11.9976H9.31814V9.33147H14.6771V11.9976Z"
 	);
