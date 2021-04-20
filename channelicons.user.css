@@ -11,5 +11,5 @@
 ==/UserStyle== */
 
 @-moz-document domain("discord.com") {
-	@import url("https://v-briese.github.io/Channel-Icons/channelicons.theme.css");
+	@import url("https://raw.githack.com/v-briese/Channel-Icons/main/channelicons.theme.css");
 }
