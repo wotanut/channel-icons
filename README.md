@@ -7,6 +7,7 @@ Gives some channels unique icons depending on their name.
 - Vizality
 - BetterDiscord
 - Powercord
+- Stylus
 - GooseMod
 
 **Supported Languages:**
