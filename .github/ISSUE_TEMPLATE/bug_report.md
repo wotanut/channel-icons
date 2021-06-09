@@ -26,7 +26,7 @@ If applicable, add screenshots to help explain your problem.
 **Installation Info (please complete the following information):**
  - Discord Mod Client: [e.g. Vizality, BetterDiscord, Powercord]
  - Discord Branch and Version: [e.g. Stable 82590 (bf3e4f7)]
- - Theme Version: [e.g. 1.6.0]
+ - Theme Version: [e.g. 2.0.0]
  - OS and Version: [e.g. Windows 10 (20H2)]
 
 **Additional context**

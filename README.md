@@ -3,6 +3,8 @@
 # Channel Icons
 Gives some channels unique icons depending on their name.
 
+![screenshot](./screenshots/1.png)
+
 **Supported Mod Clients:**
 - Vizality
 - BetterDiscord
@@ -13,5 +15,3 @@ Gives some channels unique icons depending on their name.
 **Supported Languages:**
 - English
 - French
-
-![screenshot](./screenshots/1.png)
