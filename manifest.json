@@ -1,14 +1,14 @@
 {
 	"name": "Channel Icons",
 	"description": "Gives some channels unique icons depending on their name.",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"license": "MIT",
-	"author": "Vbriese#2501",
-	"theme": "channelicons.theme.css",
+	"author": "Vbriese#0001",
+	"theme": "source.scss",
 	"settings": [
 		{
 			"type": "markdown",
-			"source": "> Theme settings aren't finished yet... for now, you may edit the file located at `vizality/addons/themes/channel-icons/main.css`."
+			"source": "> Theme settings aren't finished yet... for now, you may edit the file located at `vizality/addons/themes/channel-icons/source.scss`."
 		}
 	]
 }

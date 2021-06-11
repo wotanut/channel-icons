@@ -1,6 +1,6 @@
 {
   "name": "channel-icons",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Gives some channels unique icons depending on their name.",
   "scripts": {
     "compile": "sass source.scss channelicons.theme.css",

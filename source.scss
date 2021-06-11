@@ -3,22 +3,49 @@
  * @description Gives some channels unique icons depending on their name.
  * @author Vbriese
  * @authorId 441384103946878987
- * @version 2.0.0
+ * @version 2.0.1
  *
  * @updateUrl https://v-briese.github.io/channel-icons/channelicons.theme.css
  * @source https://github.com/v-briese/channel-icons
  * @invite fssWDHY5Kb
  */
 
-@mixin set-channel-icon($name, $icon) {
-	.mainContent-u_9PKf[aria-label*=#{$name}][aria-label$="text channel)"] > div {
-		svg > path:first-child {
-			d: path($icon);
-			transform: scale(1) !important;
+%limited-icon-changes {
+	div[aria-label*="(Limited)"] > {
+		svg > {
+			path:first-child {
+				mask: url(#svg-mask-chat-input-button-notification);
+			}
+			
+			path:nth-child(2) {
+				transform: translateY(14px);
+			}
 		}
 	}
-	.mainContent-u_9PKf[aria-label*=#{$name}][aria-label$="announcement channel)"] > div {
-		svg > path {
+}
+
+@mixin set-channel-icon($name, $icon) {
+	.mainContent-u_9PKf[aria-label*=#{$name}][aria-label$="text channel)"] > {
+		@extend %limited-icon-changes;
+		
+		div > {
+			svg > {
+				path:first-child {
+					d: path($icon);
+					transform: scale(1) !important;
+				}
+			}
+	
+			svg[viewBox="0 0 40 40"] > path {
+				transform: scale(1.7) !important;
+			}
+		}
+	}
+
+	.mainContent-u_9PKf[aria-label*=#{$name}][aria-label$="announcement channel)"] > {
+		@extend %limited-icon-changes;
+		
+		div > svg > path {
 			d: path($icon);
 			transform: scale(1) !important;
 		}
