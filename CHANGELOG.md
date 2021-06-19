@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.0] - 2021-06-18
+### Added
+- Idea/Feedback channel icon.
+- Introduction channel icon.
+- Plugin channel icon.
+- Theme channel icon.
+- Snippet channel icon.
+### Changed
+- `CONTRIBUTING.md` to include sizing specifications.
+### Removed
+- Discriminator in `author` fields.
+
 ## [2.0.1] - 2021-06-11
 ### Fixed
 - Icons being improperly sized on rule channels.
@@ -28,5 +40,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Icon being applied to all paths, sometimes making it unclear whether the channel is private.
 
-[2.0.1]: https://github.com/v-briese/channel-icons/compare/783b622..main
+[2.1.0]: https://github.com/v-briese/channel-icons/compare/bae7b11..main
+[2.0.1]: https://github.com/v-briese/channel-icons/compare/783b622..bae7b11
 [2.0.0]: https://github.com/v-briese/channel-icons/compare/fc531eb..5a1294e
