@@ -15,3 +15,4 @@ Gives some channels unique icons depending on their name.
 **Supported Languages:**
 - English
 - French
+- German
