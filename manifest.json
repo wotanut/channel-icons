@@ -1,7 +1,7 @@
 {
 	"name": "Channel Icons",
 	"description": "Gives some channels unique icons depending on their name.",
-	"version": "2.2.0",
+	"version": "1.0.0",
 	"license": "MIT",
 	"author": "Vbriese",
 	"theme": "source.scss",

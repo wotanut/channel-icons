@@ -1,9 +1,9 @@
 {
 	"main": "goosemod.js",
-	"version": "2.2.0",
+	"version": "1.0.0",
 
 	"name": "Channel Icons",
-	"authors": [ "441384103946878987" ],
+	"authors": [ "705798778472366131" ],
 	"description": "Gives some channels unique icons depending on their name.",
 	"images": [ "https://valentinegb.github.io/channel-icons/screenshots/1.png" ],
 	"tags": ["ui"]

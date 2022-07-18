@@ -1,12 +1,11 @@
 {
 	"name": "Channel Icons",
 	"description": "Gives some channels unique icons depending on their name.",
-	"version": "2.2.0",
-	"author": "Vbriese",
+	"version": "1.0.0",
+	"author": "Sambot",
 	"license": "MIT",
 	"theme": "channelicons.theme.css",
 	"preview": [
 		"https://valentinegb.github.io/channel-icons/screenshots/1.png"
 	],
-	"discord": "fssWDHY5Kb"
 }

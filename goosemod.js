@@ -4,7 +4,7 @@ export default {
 	goosemodHandlers: {
 		onImport: async () => {
 			style = document.createElement("style");
-			style.textContent = `@import url("https://v-briese.github.io/channel-icons/channelicons.theme.css");`;
+			style.textContent = `@import url("https://raw.githubusercontent.com/wotanut/channel-icons/main/channelicons.theme.css");`;
 			document.head.appendChild(style);
 		},
 
